@@ -57,6 +57,10 @@ h1 {
     margin-bottom: 48px;
 }
 
+.profile .title, .education .title{
+    margin-bottom: 16px;
+}
+
 .info {
     position: relative;
 }
