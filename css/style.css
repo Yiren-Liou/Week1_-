@@ -179,6 +179,10 @@ h1 {
     margin-bottom: 8px;
 }
 
+.exp-info-li p{
+    font-weight: lighter;
+}
+
 .hex-logo{
     margin-bottom: 8.15px;
 }
