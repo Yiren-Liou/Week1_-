@@ -14,14 +14,13 @@ hr {
 }
 
 h1 {
-    margin-top: 48px;
     font-family: "Roboto", "sans-serif";
     font-weight: normal;
     font-size: 80px;
     line-height: 90px;
-    height: 180px;
-    width: 288px;
-    margin-bottom: 24px;
+    border-bottom: 2px solid #000;
+    margin: 48px 0;
+    padding-bottom: 29px;
 }
 
 .title {
@@ -29,7 +28,10 @@ h1 {
     font-size: 32px;
     line-height: 45px;
     font-weight: bold;
-    margin: 0 16px 8px 0px;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+    
 }
 
 .subtitle {
@@ -105,11 +107,14 @@ h1 {
     z-index: 1;
 }
 
-.skills h2, .footer h2{
-    margin: 0 0 8px 0;  
+.skills .title, .footer h2{ 
     padding-top: 24px;
     text-align: center;
-    color: #fff; 
+    color: #fff;
+    border-color: #fff; 
+    width: 996px;
+    padding-bottom: 8px;
+    margin: 0 auto 40px auto;
 }
 
 .skills span, .footer span{
@@ -152,7 +157,7 @@ h1 {
     margin-bottom: 72px;
 }
 
-.exp hr{
+.exp .title{
     margin-bottom: 22px;
 }
 
@@ -164,9 +169,6 @@ h1 {
 .exp-info li{
     padding-left: 24px;
     margin-bottom: 32px;
-}
-
-.exp-info h3{
     font-family: "Microsoft JhengHei", "sans-serif";
     font-size: 24px;
     line-height: 36px;
@@ -206,6 +208,11 @@ h1 {
     line-height: 36px;
     color: #fff;
     margin-bottom: 16px;    
+}
+
+.portfolio{
+    color: #fff;
+    text-decoration: none;  
 }
 
 .social-icon{
